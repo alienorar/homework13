@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #b0c6b4d6;
+    background-color: #daf2fed6;
 
 }
 .navbar_actions{
@@ -34,7 +34,7 @@ padding: 16px 70px;
 .navbar_search{
     display: flex;
     gap: 10px;
-    background-color: rgba(200, 219, 245, 0.604);
+    background-color: rgba(215, 229, 248, 0.604);
     align-items: center;
     padding: 16px 50px;
     border-radius: 5px;
@@ -60,16 +60,16 @@ padding: 16px 70px;
 }
 .article{
 display: flex;
-}
 
+}
 .aside{
     display: flex;
     flex-direction: column;
     padding: 30px;
-    font-size: 30px;
+    font-size: 26px;
     font-family: sans-serif;
-    width: 30%;
-    background-color: #9fb4d255;
+    justify-content: space-between;
+    gap: 20px;
 }
 .aside_menu{
     display: flex;
@@ -77,9 +77,14 @@ display: flex;
     justify-content: space-between;
     gap: 45px;
 }
-.aside_menu li{
+.aside_logo{
+    padding: 20px;
+}
+.menu_item{
     display: flex;
     gap: 20px;
+    padding: 14px;
+    border-radius: 10px;
 }
 .aside span{
     color: #109CF1;
@@ -87,4 +92,82 @@ display: flex;
 .aside a{
     text-decoration: none;
     color: #696565;
+}
+.aside_btn span{
+color: #467cb2;
+}
+.aside_btn a{
+    background-color:transparent;
+    border: none;
+}
+.main_title{
+    display: flex;
+    padding: 0px 86px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_title span{
+    color: #109CF1;
+    font-size: 24px;
+}
+.title1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+.main_table{
+padding: 20px 100px;
+    background-color: #fff;
+    color: #696565;
+}
+.main_table table{
+    width: 1100px;
+}
+
+.selection2{
+    display: flex;
+    /* justify-content: ; */
+}
+
+.menu_item:hover{
+    background-color: rgba(23, 121, 233, 0.811);
+    color: white;
+    border-radius: 5px;
+}
+
+ table th{
+    border-right: 1px solid rgb(49, 61, 83);
+    border-bottom: 1px solid rgb(73, 96, 119);
+    padding: 20px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+table td{
+    border-right: 1px solid;
+   padding: 10px;
+   text-align: center;
+}
+table tr:nth-child(even) {
+    background-color: #7dccfa86;
+  }
+
+
+.cash{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    border: none;
 }
